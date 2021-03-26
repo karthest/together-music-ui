@@ -1,0 +1,24 @@
+.room{
+    padding: 10px;
+    height: 90vh;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: stretch;
+    z-index: -1;
+}
+.background{
+    content: "";
+    width:100%;
+    height:100%;
+    position: fixed;
+    left:0;
+    top:0;
+    /* background:no-repeat center url(https://imgo.youxiniao.com/img2019/11/6/10/2019110678996837.jpg); */
+    filter: blur(10px);
+    z-index: -1;
+}
+.background image{
+    width: 100%;
+    height: 100%;
+}
